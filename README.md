@@ -1,6 +1,7 @@
 # 🛫 DSU Airline Management System
 
 ## 🧾 Project Overview
+
 The **DSU Airline Management System** is a simple console-based application written in **C** that manages passenger flight reservations.  
 It allows users to **reserve seats**, **cancel bookings**, **display passenger records**, and **automatically store data in a file**.
 
@@ -10,6 +11,7 @@ It demonstrates the use of **linked lists for dynamic data management** and **ba
 ---
 
 ## 🎯 Key Features
+
 - ✅ **Seat Reservation** – Allows booking of seats for passengers (up to 15).
 - ✅ **Cancellation** – Deletes passenger record using a passport number.
 - ✅ **Record Display** – Shows all current bookings neatly formatted.
@@ -20,12 +22,15 @@ It demonstrates the use of **linked lists for dynamic data management** and **ba
 ---
 
 ## 🧩 Data Structure Used
+
 The system is implemented using a **Singly Linked List** where each node stores a passenger’s information:
+
 ```
 [Passenger1] → [Passenger2] → [Passenger3] → NULL
 ```
 
 ### Each node contains:
+
 - Passport Number
 - Name
 - Email
@@ -35,26 +40,31 @@ The system is implemented using a **Singly Linked List** where each node stores 
 ---
 
 ## ⚙️ Functional Flow
-| Step | Function | Description |
-|------|-----------|-------------|
-| 1️⃣ | `main()` | Displays the menu and controls the program loop |
-| 2️⃣ | `reserve()` | Adds a new passenger record (allocates memory dynamically) |
-| 3️⃣ | `cancel()` | Removes a booking by matching the passport number |
-| 4️⃣ | `display()` | Shows all current passengers with details |
-| 5️⃣ | `saveToFile()` | Saves all records into a text file before exiting |
-| 6️⃣ | `inputDetails()` | Collects user input for new bookings |
+
+| Step | Function         | Description                                                |
+| ---- | ---------------- | ---------------------------------------------------------- |
+| 1️⃣   | `main()`         | Displays the menu and controls the program loop            |
+| 2️⃣   | `reserve()`      | Adds a new passenger record (allocates memory dynamically) |
+| 3️⃣   | `cancel()`       | Removes a booking by matching the passport number          |
+| 4️⃣   | `display()`      | Shows all current passengers with details                  |
+| 5️⃣   | `saveToFile()`   | Saves all records into a text file before exiting          |
+| 6️⃣   | `inputDetails()` | Collects user input for new bookings                       |
 
 ---
 
 ## 💻 How to Run
+
 ### 🧱 1. Compile the Program
+
 If you’re using Code::Blocks, Dev-C++, or Turbo C, simply paste the code and run.
 Or via command line:
+
 ```bash
 gcc dsu_airline_management.c -o dsu_airline
 ```
 
 ### ▶️ 2. Run the Executable
+
 ```bash
 ./dsu_airline
 ```
@@ -62,6 +72,7 @@ gcc dsu_airline_management.c -o dsu_airline
 ---
 
 ## 🧠 Program Menu
+
 ```
 Welcome to DSU Airline System
 
@@ -75,7 +86,9 @@ Enter your choice:
 ---
 
 ## 📊 Sample Output
+
 ### ✈️ Reservation Example
+
 ```
 Enter your passport number: AB123
 Enter your name: rumaisa
@@ -87,6 +100,7 @@ Your seat number is: A-1
 ```
 
 ### 📋 Display Example
+
 ```
 Passport Number: AB123
 Name: Rumaisa Fatima
@@ -97,22 +111,23 @@ Destination: Germany
 ```
 
 ### ❌ Cancel Example
+
 ```
 Enter passport number to delete booking: AB123
 Booking has been deleted successfully.
 ```
 
 ### 💾 Exit Example
+
 ```
 Details have been saved to 'DSU_Airline_Records.txt'.
 Thank you for using DSU Airline System!
 ```
 
-
-
 ---
 
 ## 🧩 Concepts Demonstrated
+
 - Linked Lists
 - Structures (`struct`)
 - Dynamic Memory Allocation (`malloc`, `free`)
@@ -120,3 +135,12 @@ Thank you for using DSU Airline System!
 - Menu-Driven Programming
 - String Functions (`strcmp`, `gets`, `fflush`)
 
+---
+
+## 👨‍💻 Developed By
+
+**Rumaisa Fatima** — Student, DHA Suffa University  
+**Muhammad Maaz Khan** — Student, DHA Suffa University
+
+📅 _Project Date:_ November 2022  
+🏫 _Course:_ Programming Fundamentals (1st Semester)
