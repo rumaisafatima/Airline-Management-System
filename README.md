@@ -78,9 +78,9 @@ Enter your choice:
 ### ✈️ Reservation Example
 ```
 Enter your passport number: AB123
-Enter your name: Ahmed
-Enter your email address: ahmed@gmail.com
-Enter your destination: Dubai
+Enter your name: rumaisa
+Enter your email address: rumaisa@gmail.com
+Enter your destination: Germany
 
 Seat booking successful!
 Your seat number is: A-1
